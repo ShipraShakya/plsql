@@ -1,0 +1,12 @@
+declare 
+a int;
+b int;
+begin
+a := 0;
+b := 10;
+while(a<b)
+loop
+a := a+1;
+dbms_output.put_line(a);
+end loop;
+end;
